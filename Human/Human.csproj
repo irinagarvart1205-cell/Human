@@ -98,11 +98,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Elements\" />
-    <Folder Include="Voices\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\ic_english.png" />
     <Resource Include="Images\ic_russian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Voices\Voice1.mp3" />
+    <Content Include="Voices\Voice2.mp3" />
+    <Content Include="Voices\Voice3.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
