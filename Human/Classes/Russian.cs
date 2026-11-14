@@ -27,7 +27,7 @@ namespace Human.Classes
         public override void Speak(Label Phrase)
         {
             Phrase.Content = Phrases[StepAudio]._Phrase;
-            MainWindow.MediaPlayer.Open(new Uri(Phrases[StepAudio].Scr));
+            MainWindow.MediaPlayer.Open(new Uri(Phrases[StepAudio].Src));
             MainWindow.MediaPlayer.Play();
             StepAudio++;
         }
@@ -39,6 +39,5 @@ namespace Human.Classes
             allPhrases.Add(new Phrase("Меня зовут Ирина", @"C:\\Users\\Student-A502.PERMAVIAT\\Desktop\\Human\\Human\\Voices\\Voice3.mp3"));
             return allPhrases;
         }
-
     }
 }

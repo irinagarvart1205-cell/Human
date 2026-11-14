@@ -22,8 +22,9 @@ namespace Human.Elements
     {
         Classes.Human Human;
         public Item(object Data)
-        {
+        { 
             InitializeComponent();
+
             this.Human = Data as Classes.Human;
             img.Source = new BitmapImage(new Uri(this.Human.Img));
             name.Content = this.Human.Name;

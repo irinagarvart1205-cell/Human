@@ -9,10 +9,10 @@ namespace Human.Classes
     public class Phrase
     {
         public string _Phrase { get; set; }
-        public string Scr {  get; set; }
-        public Phrase(string Phrase, string Scr) { 
+        public string Src {  get; set; }
+        public Phrase(string Phrase, string Src) { 
             this._Phrase = Phrase;
-            this.Scr = Scr;
+            this.Src = Src;
                     
         }
     }

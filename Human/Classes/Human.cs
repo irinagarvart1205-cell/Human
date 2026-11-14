@@ -16,6 +16,6 @@ namespace Human.Classes
             this.Name = Name;
             this.Img = Img;
         }
-        public abstract void Speak(Label Phrasse);
+        public abstract void Speak(System.Windows.Controls.Label Phrase);
     }
 }
